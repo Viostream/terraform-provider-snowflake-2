@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/helper/validation"
 	"github.com/jmoiron/sqlx"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
 )
 
 // warehouse is a go representation of a grant that can be used in conjunction

@@ -9,8 +9,8 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/helper/validation"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
-	snowflakeValidation "github.com/chanzuckerberg/terraform-provider-snowflake/pkg/validation"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
+	snowflakeValidation "github.com/viostream/terraform-provider-snowflake/pkg/validation"
 )
 
 const (

@@ -11,9 +11,9 @@ import (
 
 	"github.com/hashicorp/terraform/helper/schema"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/provider"
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/resources"
-	. "github.com/chanzuckerberg/terraform-provider-snowflake/pkg/testhelpers"
+	"github.com/viostream/terraform-provider-snowflake/pkg/provider"
+	"github.com/viostream/terraform-provider-snowflake/pkg/resources"
+	. "github.com/viostream/terraform-provider-snowflake/pkg/testhelpers"
 )
 
 func TestWarehouseGrant(t *testing.T) {

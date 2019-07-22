@@ -6,10 +6,10 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
 )
 
 var databaseSchema = map[string]*schema.Schema{

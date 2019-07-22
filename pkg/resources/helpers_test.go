@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/provider"
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/resources"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/terraform"
 	"github.com/stretchr/testify/assert"
+	"github.com/viostream/terraform-provider-snowflake/pkg/provider"
+	"github.com/viostream/terraform-provider-snowflake/pkg/resources"
 )
 
 func database(t *testing.T, id string, params map[string]interface{}) *schema.ResourceData {

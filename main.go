@@ -6,11 +6,11 @@ import (
 	"os"
 	"sort"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/provider"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/terraform"
 	"github.com/olekukonko/tablewriter"
+	"github.com/viostream/terraform-provider-snowflake/pkg/provider"
 )
 
 func main() {

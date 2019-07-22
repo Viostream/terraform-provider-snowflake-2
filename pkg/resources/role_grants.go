@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/jmoiron/sqlx"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
 )
 
 func RoleGrants() *schema.Resource {

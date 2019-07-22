@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/provider"
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/resources"
-	. "github.com/chanzuckerberg/terraform-provider-snowflake/pkg/testhelpers"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/viostream/terraform-provider-snowflake/pkg/provider"
+	"github.com/viostream/terraform-provider-snowflake/pkg/resources"
+	. "github.com/viostream/terraform-provider-snowflake/pkg/testhelpers"
 )
 
 func TestDatabase(t *testing.T) {

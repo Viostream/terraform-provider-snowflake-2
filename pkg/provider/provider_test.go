@@ -3,10 +3,10 @@ package provider_test
 import (
 	"testing"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/provider"
 	"github.com/hashicorp/terraform/helper/schema"
 	_ "github.com/snowflakedb/gosnowflake"
 	"github.com/stretchr/testify/assert"
+	"github.com/viostream/terraform-provider-snowflake/pkg/provider"
 )
 
 func TestProvider(t *testing.T) {
@@ -31,7 +31,7 @@ func TestDSN(t *testing.T) {
 	}{
 		{"simple", args{resourceData(t, "acct", "user", "pass", "region", "role")},
 			"user:pass@acct.region.snowflakecomputing.com:443?region=region&role=role", false},
-		{"us-west-2 special case", args{resourceData(t, "acct2", "user2", "pass2", "us-west-2", "role2")},
+		{"default region", args{resourceData(t, "acct2", "user2", "pass2", "", "role2")},
 			"user2:pass2@acct2.snowflakecomputing.com:443?role=role2", false},
 	}
 	for _, tt := range tests {

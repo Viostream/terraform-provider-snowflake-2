@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/provider"
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/resources"
-	. "github.com/chanzuckerberg/terraform-provider-snowflake/pkg/testhelpers"
+	"github.com/viostream/terraform-provider-snowflake/pkg/provider"
+	"github.com/viostream/terraform-provider-snowflake/pkg/resources"
+	. "github.com/viostream/terraform-provider-snowflake/pkg/testhelpers"
 )
 
 func TestView(t *testing.T) {

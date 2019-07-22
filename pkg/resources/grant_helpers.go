@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/jmoiron/sqlx"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
 )
 
 // grant represents a generic grant of a privilge from a grant (the target) to a

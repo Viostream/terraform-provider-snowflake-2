@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/helper/validation"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
 )
 
 var validViewPrivileges = []string{"SELECT"}

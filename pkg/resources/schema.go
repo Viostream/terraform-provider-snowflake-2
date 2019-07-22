@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/terraform/helper/validation"
 	"github.com/pkg/errors"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
 )
 
 var schemaSchema = map[string]*schema.Schema{

@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
 	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
 )
 
 var roleProperties = []string{"comment"}

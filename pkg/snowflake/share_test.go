@@ -3,8 +3,8 @@ package snowflake_test
 import (
 	"testing"
 
-	"github.com/chanzuckerberg/terraform-provider-snowflake/pkg/snowflake"
 	"github.com/stretchr/testify/assert"
+	"github.com/viostream/terraform-provider-snowflake/pkg/snowflake"
 )
 
 func TestShare(t *testing.T) {
