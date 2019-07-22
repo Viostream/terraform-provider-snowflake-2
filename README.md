@@ -12,6 +12,8 @@ This is a terraform provider plugin for managing
 [Chan Zuckerberg](https://github.com/chanzuckerberg/terraform-provider-snowflake),
 currently maintained by [Viostream](https://viostream.com).
 
+This provider is pre-release - please test carefully and use at your own risk!
+
 ## Install
 
 ```shell
